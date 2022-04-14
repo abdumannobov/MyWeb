@@ -1,0 +1,1243 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+body .con {
+  width: 67.5%;
+  margin: auto;
+  height: 335vh;
+  border: 0.2px double blue;
+  background-color: #1b1e33;
+}
+
+body .con .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 70px;
+  width: 97%;
+  border-radius: 10px;
+  background-color: #364165;
+  margin-top: 10px;
+  margin: auto;
+}
+
+body .con .nav .a {
+  margin: 20px;
+}
+
+body .con .nav .a a {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  margin: 20px;
+}
+
+body .con .nav .a a:hover {
+  text-decoration: underline;
+}
+
+body .con .nav .card {
+  margin-left: 200px;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .con .nav .card select {
+  height: 23px;
+  border: transparent;
+  background-color: #364165;
+  width: 40px;
+}
+
+body .con .nav .card .box {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50px;
+  margin-top: -10px;
+}
+
+body .con .cols {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .con .cols .col-1 {
+  height: 1000px;
+  width: 300px;
+}
+
+body .con .cols .col-1 .box-1 {
+  width: 280px;
+  height: 360px;
+  background-color: #364165;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+body .con .cols .col-1 .box-1 .title {
+  width: 280px;
+  height: 50px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: center;
+  margin: auto;
+  background-color: #10a8ab;
+}
+
+body .con .cols .col-1 .box-1 .title h1 {
+  margin: 15px;
+  color: white;
+  font-size: 25px;
+}
+
+body .con .cols .col-1 .box-1 .h1 .line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .con .cols .col-1 .box-1 .h1 .line h1 {
+  margin: 0px 30px;
+  color: white;
+}
+
+body .con .cols .col-1 .box-1 .h1 .line .box {
+  margin: 20px 30px;
+  text-align: center;
+  height: 20px;
+  width: 60px;
+  border-radius: 20px;
+  background-color: #4f577b;
+}
+
+body .con .cols .col-1 .box-2 {
+  width: 280px;
+  height: 400px;
+  background-color: #364165;
+  margin: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+body .con .cols .col-1 .box-2 h1 {
+  color: white;
+  margin: 20px;
+  text-align: center;
+}
+
+body .con .cols .col-1 .box-2 img {
+  margin: auto;
+}
+
+body .con .cols .col-1 .box-2 .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .con .cols .col-1 .box-2 .cards .card1 {
+  height: 80px;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  width: 78px;
+  border: 0.5px solid black;
+  border-top: 3px solid red;
+}
+
+body .con .cols .col-1 .box-2 .cards .card2 {
+  height: 80px;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  width: 78px;
+  border: 0.5px solid black;
+  border-top: 3px solid #ffe600;
+}
+
+body .con .cols .col-1 .box-2 .cards .card3 {
+  height: 80px;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  width: 78px;
+  border: 0.5px solid black;
+  border-top: 3px solid #3700ff;
+}
+
+body .con .cols .col-1 .box-2 .cards .card4 {
+  height: 80px;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  width: 78px;
+  border: 0.5px solid black;
+  border-top: 3px solid #00ff2a;
+}
+
+body .con .cols .col-1 .box-3 {
+  width: 280px;
+  height: 800px;
+  background-color: #364165;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+body .con .cols .col-1 .box-3 img {
+  width: 280px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+body .con .cols .col-1 .box-3 button {
+  height: 30px;
+  width: 80px;
+  border-radius: 20px;
+  margin: 10px 5px;
+  background-color: #4f577b;
+}
+
+body .con .cols .col-1 .box-3 .h1 .line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .con .cols .col-1 .box-3 .h1 .line h1 {
+  margin: 0px 30px;
+  color: white;
+}
+
+body .con .cols .col-1 .box-3 .h1 .line .box {
+  text-align: center;
+  height: 20px;
+  width: 60px;
+  border-radius: 20px;
+  background-color: #4f577b;
+}
+
+body .con .cols .col-1 .box-4 video {
+  width: 280px;
+  height: 150px;
+  background-color: #364165;
+  border-radius: 10px;
+  margin: 5px 15px;
+}
+
+body .con .cols .col-1 .box-5 {
+  width: 280px;
+  height: 130px;
+  background-color: #364165;
+  border-radius: 10px;
+  margin: 5px 15px;
+}
+
+body .con .cols .col-1 .box-5 .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .con .cols .col-1 .box-5 .box .con-1 {
+  height: 130px;
+  width: 70px;
+  background-color: #144f9a;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+body .con .cols .col-1 .box-5 .box .con-1 .div {
+  height: 100px;
+  width: 70px;
+  border-top-left-radius: 10px;
+}
+
+body .con .cols .col-1 .box-5 .box .con-1 .div img {
+  height: 70px;
+  width: 70px;
+  background-color: white;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+body .con .cols .col-1 .box-5 .box .con-1 h2 {
+  text-align: center;
+}
+
+body .con .cols .col-1 .box-5 .box .con-2 {
+  height: 130px;
+  width: 70px;
+  background-color: #51bff6;
+}
+
+body .con .cols .col-1 .box-5 .box .con-2 .div {
+  height: 100px;
+  width: 70px;
+}
+
+body .con .cols .col-1 .box-5 .box .con-2 .div img {
+  height: 70px;
+  width: 70px;
+  background-color: white;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+body .con .cols .col-1 .box-5 .box .con-2 h2 {
+  text-align: center;
+}
+
+body .con .cols .col-1 .box-5 .box .con-3 {
+  height: 130px;
+  width: 70px;
+  background-color: #d2324c;
+}
+
+body .con .cols .col-1 .box-5 .box .con-3 .div {
+  height: 100px;
+  width: 70px;
+}
+
+body .con .cols .col-1 .box-5 .box .con-3 .div img {
+  height: 70px;
+  width: 70px;
+  background-color: white;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+body .con .cols .col-1 .box-5 .box .con-3 h2 {
+  text-align: center;
+}
+
+body .con .cols .col-1 .box-5 .box .con-4 {
+  height: 130px;
+  width: 70px;
+  background-color: #fcb150;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+body .con .cols .col-1 .box-5 .box .con-4 .div {
+  height: 100px;
+  width: 70px;
+  border-top-right-radius: 10px;
+}
+
+body .con .cols .col-1 .box-5 .box .con-4 .div img {
+  height: 70px;
+  width: 70px;
+  background-color: white;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+body .con .cols .col-1 .box-5 .box .con-4 h2 {
+  text-align: center;
+}
+
+body .con .cols .col-2 {
+  height: 1000px;
+  width: 300px;
+}
+
+body .con .cols .col-2 .box-1 {
+  width: 280px;
+  height: 420px;
+  background-color: #364165;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+body .con .cols .col-2 .box-1 img {
+  margin: 0 50px;
+  margin-top: 40px;
+  border-radius: 100px;
+  border: 10px solid rgba(0, 0, 0, 0.671);
+}
+
+body .con .cols .col-2 .box-1 h1 {
+  text-align: center;
+  color: white;
+}
+
+body .con .cols .col-2 .box-1 p {
+  text-align: center;
+  color: grey;
+}
+
+body .con .cols .col-2 .box-1 .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 15px;
+}
+
+body .con .cols .col-2 .box-1 .cards .card1 {
+  height: 120px;
+  width: 93px;
+  text-align: center;
+  border: 2px solid black;
+  border-left: transparent;
+  border-top: 3px solid gold;
+  border-bottom: transparent;
+}
+
+body .con .cols .col-2 .box-1 .cards .card2 {
+  height: 120px;
+  width: 93px;
+  text-align: center;
+  border: 2px solid black;
+  border-top: 3px solid #0084ff;
+  border-bottom: transparent;
+}
+
+body .con .cols .col-2 .box-1 .cards .card3 {
+  height: 120px;
+  width: 93px;
+  text-align: center;
+  border: 2px solid black;
+  border-top: 3px solid #ff00aa;
+  border-bottom: transparent;
+  border-right: transparent;
+}
+
+body .con .cols .col-2 .box-2 {
+  width: 280px;
+  height: 450px;
+  background-color: #364165;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+body .con .cols .col-2 .box-2 .card-1 {
+  height: 50px;
+  width: 280px;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #cc324c;
+}
+
+body .con .cols .col-2 .box-2 .card-1 h1 {
+  color: white;
+}
+
+body .con .cols .col-2 .box-2 .card-2 {
+  height: 150px;
+  width: 280px;
+  text-align: center;
+  background-color: #e54663;
+  color: white;
+  border: 2px solid transparent;
+}
+
+body .con .cols .col-2 .box-2 .card-2 h2 {
+  margin-top: 20px;
+}
+
+body .con .cols .col-2 .box-2 .card-2 h6 {
+  font-size: 35px;
+}
+
+body .con .cols .col-2 .box-2 .cards-3 .box1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px;
+}
+
+body .con .cols .col-2 .box-2 .cards-3 .box1 h2 {
+  color: white;
+  font-family: sans-serif;
+}
+
+body .con .cols .col-2 .box-2 .cards-3 .box1 h1 {
+  margin-top: -5px;
+  margin-left: 40px;
+  color: white;
+}
+
+body .con .cols .col-2 .box-2 .cards-3 .box1 input {
+  margin: 8px 10px;
+}
+
+body .con .cols .col-2 .box-2 .cards-3 .box2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px;
+}
+
+body .con .cols .col-2 .box-2 .cards-3 .box2 h2 {
+  color: white;
+  font-family: sans-serif;
+}
+
+body .con .cols .col-2 .box-2 .cards-3 .box2 h1 {
+  margin-top: -5px;
+  margin-left: 40px;
+  color: white;
+}
+
+body .con .cols .col-2 .box-2 .cards-3 .box2 input {
+  margin: 8px 10px;
+}
+
+body .con .cols .col-2 .box-2 .cards-3 .box3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px;
+}
+
+body .con .cols .col-2 .box-2 .cards-3 .box3 h2 {
+  color: white;
+  font-family: sans-serif;
+}
+
+body .con .cols .col-2 .box-2 .cards-3 .box3 h1 {
+  margin-top: -5px;
+  margin-left: 38px;
+  color: white;
+}
+
+body .con .cols .col-2 .box-2 .cards-3 .box3 input {
+  margin: 8px 10px;
+}
+
+body .con .cols .col-2 .box-2 .cards-3 .box4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px;
+}
+
+body .con .cols .col-2 .box-2 .cards-3 .box4 h2 {
+  color: white;
+  font-family: sans-serif;
+}
+
+body .con .cols .col-2 .box-2 .cards-3 .box4 h1 {
+  margin-top: -5px;
+  margin-left: 40px;
+  color: white;
+}
+
+body .con .cols .col-2 .box-2 .cards-3 .box4 input {
+  margin: 8px 10px;
+}
+
+body .con .cols .col-2 .box-2 .cards-3 .box5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px;
+}
+
+body .con .cols .col-2 .box-2 .cards-3 .box5 h2 {
+  color: white;
+  font-family: sans-serif;
+}
+
+body .con .cols .col-2 .box-2 .cards-3 .box5 h1 {
+  margin-top: -5px;
+  margin-left: 38px;
+  color: white;
+}
+
+body .con .cols .col-2 .box-2 .cards-3 .box5 input {
+  margin: 8px 10px;
+}
+
+body .con .cols .col-2 .box-2 .cards-3 .box6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px;
+}
+
+body .con .cols .col-2 .box-2 .cards-3 .box6 h2 {
+  color: white;
+  font-family: sans-serif;
+}
+
+body .con .cols .col-2 .box-2 .cards-3 .box6 h1 {
+  margin-top: -5px;
+  margin-left: 40px;
+  color: white;
+}
+
+body .con .cols .col-2 .box-2 .cards-3 .box6 input {
+  margin: 8px 10px;
+}
+
+body .con .cols .col-2 .box-3 {
+  width: 280px;
+  height: 390px;
+  background-color: #364165;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+body .con .cols .col-2 .box-3 .card-1 {
+  height: 50px;
+  width: 280px;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #34aade;
+}
+
+body .con .cols .col-2 .box-3 .card-1 h2 {
+  color: white;
+}
+
+body .con .cols .col-2 .box-3 .card-2 {
+  padding: 20px;
+  color: white;
+}
+
+body .con .cols .col-2 .box-3 .card-2 h4 {
+  color: blue;
+}
+
+body .con .cols .col-2 .box-3 .card-2 h5 {
+  color: grey;
+}
+
+body .con .cols .col-2 .box-3 .card-3 {
+  padding: 20px;
+  color: white;
+}
+
+body .con .cols .col-2 .box-3 .card-3 .cards .box1 {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px;
+}
+
+body .con .cols .col-2 .box-3 .card-3 .cards .box1 h3 {
+  color: white;
+  font-family: sans-serif;
+}
+
+body .con .cols .col-2 .box-3 .card-3 .cards .box1 h2 {
+  margin-top: -5px;
+  margin-left: 38px;
+  color: white;
+}
+
+body .con .cols .col-2 .box-3 .card-3 .cards .box1 input {
+  margin: 5px;
+}
+
+body .con .cols .col-2 .box-3 .card-3 .cards .box2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px;
+}
+
+body .con .cols .col-2 .box-3 .card-3 .cards .box2 h3 {
+  color: white;
+  font-family: sans-serif;
+}
+
+body .con .cols .col-2 .box-3 .card-3 .cards .box2 h2 {
+  margin-top: -5px;
+  margin-left: 38px;
+  color: white;
+}
+
+body .con .cols .col-2 .box-3 .card-3 .cards .box2 input {
+  margin: 5px;
+}
+
+body .con .cols .col-2 .box-4 {
+  width: 280px;
+  height: 390px;
+  background-color: #364165;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+body .con .cols .col-2 .box-4 .card-1 {
+  height: 50px;
+  width: 280px;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #34aade;
+}
+
+body .con .cols .col-2 .box-4 .card-1 h2 {
+  color: white;
+}
+
+body .con .cols .col-2 .box-4 .card-2 {
+  padding: 20px;
+  color: white;
+}
+
+body .con .cols .col-2 .box-4 .card-2 h4 {
+  color: blue;
+}
+
+body .con .cols .col-2 .box-4 .card-2 h5 {
+  color: grey;
+}
+
+body .con .cols .col-2 .box-4 .card-3 {
+  padding: 20px;
+  color: white;
+  padding: 20px;
+  color: white;
+}
+
+body .con .cols .col-2 .box-4 .card-3 h4 {
+  color: blue;
+}
+
+body .con .cols .col-2 .box-4 .card-3 h5 {
+  color: grey;
+}
+
+body .con .cols .col-2 .box-5 {
+  width: 280px;
+  height: 195px;
+  background-color: #364165;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+body .con .cols .col-2 .box-5 .card1 {
+  height: 60px;
+  width: 280px;
+  background-color: #194f94;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+body .con .cols .col-2 .box-5 .card1 .box {
+  height: 60px;
+  width: 60px;
+}
+
+body .con .cols .col-2 .box-5 .card1 .box img {
+  height: 60px;
+  width: 60px;
+  padding: 5px;
+}
+
+body .con .cols .col-2 .box-5 .card2 {
+  height: 60px;
+  width: 280px;
+  background-color: #51bff6;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+body .con .cols .col-2 .box-5 .card2 .box {
+  height: 60px;
+  width: 60px;
+}
+
+body .con .cols .col-2 .box-5 .card2 .box img {
+  height: 60px;
+  width: 60px;
+  padding: 5px;
+}
+
+body .con .cols .col-2 .box-5 .card3 {
+  height: 60px;
+  width: 280px;
+  background-color: #d2324c;
+  margin-top: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+body .con .cols .col-2 .box-5 .card3 .box {
+  height: 60px;
+  width: 60px;
+}
+
+body .con .cols .col-2 .box-5 .card3 .box img {
+  height: 60px;
+  width: 60px;
+  padding: 5px;
+}
+
+body .con .cols .col-3 {
+  height: 1000px;
+  width: 300px;
+}
+
+body .con .cols .col-3 .box-1 {
+  width: 280px;
+  height: 230px;
+  background-color: #364165;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+body .con .cols .col-3 .box-1 h2 {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+body .con .cols .col-3 .box-1 input {
+  height: 30px;
+  width: 200px;
+  margin: 40px 40px;
+  border-radius: 5px;
+  border: transparent;
+  background-color: #50587d;
+}
+
+body .con .cols .col-3 .box-1 button {
+  height: 30px;
+  width: 150px;
+  background-color: #10a8ab;
+  border-radius: 5px;
+  border: transparent;
+  margin: 10px 65px;
+}
+
+body .con .cols .col-3 .box-2 {
+  width: 280px;
+  height: 400px;
+  background-color: #364165;
+  margin: 15px;
+  text-align: center;
+  border-radius: 10px;
+  border: 0.2px double transparent;
+}
+
+body .con .cols .col-3 .box-2 h2 {
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+}
+
+body .con .cols .col-3 .box-2 input {
+  height: 30px;
+  width: 200px;
+  margin: 20px 40px;
+  border-radius: 5px;
+  border: transparent;
+  background-color: #50587d;
+}
+
+body .con .cols .col-3 .box-2 button {
+  height: 30px;
+  width: 150px;
+  background-color: #10a8ab;
+  border-radius: 5px;
+  border: transparent;
+  margin: 10px 65px;
+}
+
+body .con .cols .col-3 .box-2 a {
+  margin-top: 10px;
+  text-decoration: none;
+  color: #4e4c4c;
+}
+
+body .con .cols .col-3 .box-2 a:hover {
+  text-decoration: underline;
+}
+
+body .con .cols .col-3 .box-2 .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  margin-top: 74px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 280px;
+  background-color: #3269b3;
+}
+
+body .con .cols .col-3 .box-2 .box img {
+  height: 50px;
+  width: 50px;
+}
+
+body .con .cols .col-3 .box-2 .box h2 {
+  margin: 10px 20px;
+}
+
+body .con .cols .col-3 .box-3 {
+  width: 280px;
+  height: 380px;
+  background-color: #364165;
+  margin: 15px;
+  border-radius: 10px;
+  border: 0.2px double transparent;
+}
+
+body .con .cols .col-3 .box-3 .card-1 {
+  height: 50px;
+  border-radius: 15px;
+  width: 230px;
+  background-color: #50587c;
+  margin: 40px 25px;
+}
+
+body .con .cols .col-3 .box-3 .card-1 .card {
+  background-color: #14acac;
+  height: 50px;
+  width: 190px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+body .con .cols .col-3 .box-3 .card-1 .card2 {
+  background-color: #14acac;
+  height: 50px;
+  width: 110px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+body .con .cols .col-3 .box-3 .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .con .cols .col-3 .box-3 .title h3 {
+  color: white;
+  margin-left: 20px;
+}
+
+body .con .cols .col-3 .box-3 .title h4 {
+  font-size: 22px;
+  color: wheat;
+  margin-left: 50px;
+}
+
+body .con .cols .col-3 .box-4 {
+  width: 280px;
+  height: 325px;
+  background-color: #364165;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+body .con .cols .col-3 .box-4 .con1 {
+  background-color: #1a4f95;
+}
+
+body .con .cols .col-3 .box-4 .con1 .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+}
+
+body .con .cols .col-3 .box-4 .con1 .head h1 {
+  margin: 10px 30px;
+  border-radius: 50px;
+  background-color: #364165;
+  border: 2px solid white;
+  height: 40px;
+  padding: 1px 5px;
+  cursor: pointer;
+  width: 50px;
+}
+
+body .con .cols .col-3 .box-4 .con1 .head h2 {
+  font-size: 30px;
+  margin: 10px 5px;
+}
+
+body .con .cols .col-3 .box-4 .con1 h6 {
+  font-size: 100px;
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+}
+
+body .con .cols .col-3 .box-4 .con1 button {
+  text-align: center;
+  margin-left: 40px;
+  height: 50px;
+  width: 200px;
+  border-radius: 20px;
+  border: transparent;
+  background-color: #46b1dc;
+}
+
+body .con .cols .col-3 .box-4 .card-1 {
+  height: 20px;
+  border-radius: 15px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  width: 230px;
+  background-color: #50587c;
+  margin: 0 25px;
+}
+
+body .con .cols .col-3 .box-4 .card-1 .card2 {
+  background-color: #14acac;
+  height: 20px;
+  width: 110px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 0;
+}
+
+body .con .cols .col-3 .box-4 .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+body .con .cols .col-3 .box-4 .title h3 {
+  color: white;
+  margin-left: 20px;
+}
+
+body .con .cols .col-3 .box-4 .title h4 {
+  font-size: 22px;
+  color: wheat;
+  margin-left: 50px;
+}
+
+body .con .cols .col-3 .box-5 {
+  width: 280px;
+  height: 250px;
+  background-color: #1a4f95;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+body .con .cols .col-3 .box-5 .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+}
+
+body .con .cols .col-3 .box-5 .head h1 {
+  margin: 10px 30px;
+  border-radius: 50px;
+  background-color: #364165;
+  border: 2px solid white;
+  height: 40px;
+  padding: 1px 5px;
+  cursor: pointer;
+  width: 50px;
+}
+
+body .con .cols .col-3 .box-5 .head h2 {
+  font-size: 30px;
+  margin: 10px 5px;
+}
+
+body .con .cols .col-3 .box-5 h6 {
+  font-size: 100px;
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+}
+
+body .con .cols .col-3 .box-5 button {
+  text-align: center;
+  margin-left: 40px;
+  height: 50px;
+  width: 200px;
+  border-radius: 20px;
+  border: transparent;
+  background-color: #46b1dc;
+}
+
+body .con .cols .col-3 .box-6 {
+  width: 280px;
+  height: 250px;
+  margin: 15px;
+  background-color: #364165;
+  border-radius: 10px;
+}
+
+body .con .cols .col-3 .box-6 .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  background-color: #1a4f95;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+body .con .cols .col-3 .box-6 .head h1 {
+  margin: 10px;
+  border-radius: 50px;
+  background-color: #364165;
+  border: 2px solid white;
+  height: 40px;
+  padding: 1px 15px;
+  cursor: pointer;
+  width: 50px;
+}
+
+body .con .cols .col-3 .box-6 .head h3 {
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+body .con .cols .col-3 .box-6 .line1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .con .cols .col-3 .box-6 .line1 h1 {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #4890aa;
+  margin: 5px 13px;
+}
+
+body .con .cols .col-3 .box-6 .line2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .con .cols .col-3 .box-6 .line2 h2 {
+  font-size: 20px;
+  margin: 1px 13px;
+  margin-left: 257px;
+  cursor: pointer;
+}
+
+body .con .cols .col-3 .box-6 .line3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .con .cols .col-3 .box-6 .line3 h2 {
+  font-size: 20px;
+  margin: 1px 15px;
+  cursor: pointer;
+}
+
+body .con .cols .col-3 .box-6 .line4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .con .cols .col-3 .box-6 .line4 h3 {
+  font-size: 20px;
+  margin: 1px 15px;
+  cursor: pointer;
+}
+
+body .con .cols .col-3 .box-6 .line4 h2 {
+  font-size: 20px;
+  margin: 1px 12px;
+  cursor: pointer;
+}
+
+body .con .cols .col-3 .box-6 .line4 h4 {
+  font-size: 20px;
+  margin: 1px 7px;
+  cursor: pointer;
+}
+
+body .con .cols .col-3 .box-6 .line5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .con .cols .col-3 .box-6 .line5 h2 {
+  font-size: 20px;
+  margin: 1px 11px;
+  cursor: pointer;
+}
+
+body .con .cols .col-3 .box-6 .line5 h3 {
+  font-size: 20px;
+  margin: 1px 8px;
+  cursor: pointer;
+}
+
+body .con .cols .col-3 .box-6 .line5 h4 {
+  font-size: 20px;
+  margin: 1px 11px;
+  cursor: pointer;
+}
+
+body .con .cols .col-3 .box-6 .line6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .con .cols .col-3 .box-6 .line6 h2 {
+  font-size: 20px;
+  margin: 1px 11px;
+  cursor: pointer;
+}
+
+body .con .cols .col-3 .box-6 .line6 h3 {
+  font-size: 20px;
+  margin: 1px 8px;
+  cursor: pointer;
+}
+
+body .con .cols .col-3 .box-6 .line6 h4 {
+  font-size: 20px;
+  margin: 1px 11px;
+  cursor: pointer;
+}
+
+body .con .cols .col-3 .box-6 .line7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .con .cols .col-3 .box-6 .line7 h2 {
+  font-size: 20px;
+  margin: 1px 11px;
+  color: white;
+  cursor: pointer;
+}
+/*# sourceMappingURL=index.css.map */
